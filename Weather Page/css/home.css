@@ -1,0 +1,38 @@
+
+html {
+    height: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.vh-100 {
+    min-height: 100vh;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.set-invisible {
+    visibility: hidden;
+}
+
+.forecast-date {
+    font-weight: bold;
+}
+
+.date-time-forecast {
+    font-size: smaller;
+    list-style-type:none;
+    text-align: left;
+}
+
+.footer-text {
+    font-size: x-small;
+}
