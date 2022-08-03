@@ -90,7 +90,7 @@ function getCurrentConditions(data, unit) {
 }
 
 function getForecast(data, unit) {
-    $('#fiveDayForecastDiv h2').text("Five Day Forecast");
+    $('#fiveDayForecastDiv h2').text("Forecast");
 
     var forecast = data.list;
     var tempUnit;
