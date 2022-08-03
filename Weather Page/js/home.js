@@ -14,7 +14,7 @@ function getWeather() {
 
         if (validateZipcode(zipcode) != false) {
 
-            var apiKey = 'b677983a94fee41b678f57ba155a0ee3';
+            var apiKey = config.API_KEY;
             var unit = $('#unitDropdownMenu li .active').text();
 
             $.ajax({
